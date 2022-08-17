@@ -1,0 +1,28 @@
+.skills {
+    
+    .container {
+        flex-direction: row;
+    }
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__list {
+        flex-direction: row;
+    }
+
+    &__item {
+        width: 180px;
+        height: fit-content;
+        padding-top: 0;
+        padding: 0 9px;
+        border-top: none;
+        border-left: 1px dashed $gray;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+}

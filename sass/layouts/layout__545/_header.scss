@@ -1,0 +1,11 @@
+.header {
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .avatar {
+            margin-bottom: 0;
+        }
+    }
+}

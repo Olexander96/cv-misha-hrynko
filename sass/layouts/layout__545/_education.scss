@@ -1,0 +1,17 @@
+.education {
+
+    .container {
+        flex-direction: row;
+    }
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__item {
+        padding-top: 0;
+        padding-left: 9px;
+        border-top: none;
+        border-left: 1px dashed $gray;
+    }
+}

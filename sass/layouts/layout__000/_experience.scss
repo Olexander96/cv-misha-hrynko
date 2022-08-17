@@ -1,0 +1,58 @@
+.experience {
+    padding: 0 10px;
+
+    .container {
+        border-top: 1px solid $gray;
+        padding: 24px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        width: 155px;
+        height: fit-content;
+        font-size: 20px;
+        line-height: 100%;
+        color: #E25544;
+        margin-bottom: 30px;
+    }
+
+    &__info {
+        max-width: 360px;
+        
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        padding-top: 9px;
+        border-top: 1px dashed $gray;
+
+        h3 {
+            font-size: 12px;
+            text-transform: capitalize;
+            color: $blueSilverColor;
+            margin-bottom: 8px;
+        }
+        
+        p {
+            line-height: 150%;
+            color: $blueSilverColor;
+
+            .bold-font {
+                font-size: 12px;
+            }
+        }
+
+        p:not(:last-child) {
+            margin-bottom: 8px;
+        }
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,12 @@
+.contacts {
+   
+    &__list {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+}

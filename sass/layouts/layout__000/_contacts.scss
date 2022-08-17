@@ -1,0 +1,26 @@
+.contacts {
+    padding: 0 10px;
+
+    .container {
+        padding: 24px 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item {
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+            color: $blueSilverColor;
+        }
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}
